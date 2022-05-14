@@ -2,7 +2,7 @@
 error_reporting(0);
 header('content-type:text/html;charset=utf-8');
 try {
-    $con = new PDO('mysql:host=localhost;dbname=xxjs', 'xxjs', 'z7fmPeAKZ7cRk46S');
+    $con = new PDO('mysql:host=' . $db_host . ';dbname=' . $db_name, $db_user, $db_pd);
 } catch (PDOException $e) {
 
     echo "Error: Can not connect to sever.";
