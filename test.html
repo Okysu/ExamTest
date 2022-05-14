@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<title>小于的在线刷题平台</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/message.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	<script src="js/message.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body onload="Fresh_Exam();">
+	<div id="Bg" class="form-structor">
+		<div class="text-btn" style="width:150px">
+			<center>
+				<div class="T" id="Set">随机背景[关]</div>
+			</center>
+		</div>
+		<div class="signup">
+			<h2 class="form-title" id="Mode_do">正在测试[1/100]</h2>
+			<div class="text-btn">
+				<div class="T" id="Q_E">你知道1+1=？你知道1+1=？你知道1+1=？你知道1+1=？你知道1+1=？</div>
+			</div>
+			<button id="A" class="submit-btn" onclick="Right_E(1)">A</button>
+			<button id="B" class="submit-btn" onclick="Right_E(2)">B</button>
+			<button id="C" class="submit-btn" onclick="Right_E(3)">C</button>
+			<button id="D" class="submit-btn" onclick="Right_E(4)">D</button>
+		</div>
+		<div class="login slide-up">
+			<div class="center">
+				<h2 class="form-title" id="Mode_rem">分数/选项查看</h2>
+				<br>
+				<br>
+				<div class="text-btn">
+					<div class="T" style="text-align: center" id="LookG">查看分数</div>
+				</div>
+				<center>
+					<a id="LookArea" href="#0" class="text-btn footer cd-popup-trigger">
+						<div class="T" id="LookD">查看选项</div>
+					</a>
+				</center>
+			</div>
+		</div>
+	</div>
+	<div class="cd-popup" role="alert">
+		<div class="cd-popup-container" style="text-align: left">
+		    <br>
+		    <br>
+			<div class="T">
+			<a id="L_A"></a>
+			<br>
+			<a id="L_B"></a>
+			<br>
+			<a id="L_C"></a>
+			<br>
+			<a id="L_D"></a>
+			</div>
+			<a href="#" class="cd-popup-close img-replace">关闭</a>
+			<br>
+		</div> <!-- cd-popup-container -->
+	</div> <!-- cd-popup -->
+	<script src="js/script.js"></script>
+	<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+
+</html>
