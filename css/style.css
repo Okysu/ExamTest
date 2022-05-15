@@ -21,7 +21,7 @@ html, body {
   position: relative;
   overflow:hidden hidden;
   background-size:100% 100%;
-  background-image: url('https://pc.exam.yby.zone/img/32.jpg');
+  background-image: url('../img/32.jpg');
   background-repeat: no-repeat;
 }
 .form-structor .signup {
