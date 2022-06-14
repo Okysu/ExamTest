@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+require_once("./config.php");
 header('content-type:text/html;charset=utf-8');
 try {
     $con = new PDO('mysql:host=' . $db_host . ';dbname=' . $db_name, $db_user, $db_pd);
